@@ -36,3 +36,4 @@ dispatcher.add_handler(timer_handler)
 dispatcher.add_handler(stop_handler)
 
 updater.start_polling()
+updater.idle()
